@@ -108,6 +108,7 @@ round(
 - To run the schema file on the database (local database) 
     - `psql -f schema file path -d database name`        - > `psql -f schema.sql -d rounds`
 
+- To connect pg Heroku database `heroku pg:psql --app abd-ali-form`
 
 - The Correct way to fire / fetch and post data 
 

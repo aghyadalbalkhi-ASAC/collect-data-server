@@ -98,7 +98,7 @@ app.post('/search',handelSearch);
 function handelSearch (req,res){
     
     let statment = '';
-    let searchField = req.body.searchField;
+    let searchField = (req.body.searchField).trim();
     let typeofsearch=  req.body.typeofsearch;
 
     let dobFrom = req.body.dobFrom;
